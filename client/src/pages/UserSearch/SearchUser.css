@@ -1,0 +1,120 @@
+
+
+.User-Search-Page .Navbar{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 2px solid rgb(84, 81, 81);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.User-Search-Page .Navbar .Navbar-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.User-Search-Page .Navbar .Navbar-Content .Navbar-logo{
+    font-family: "Archivo", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: auto;
+    color: cyan;
+    /* padding-left: 25px; */
+
+}
+
+.User-Search-Page .Navbar .Navbar-Content .Navbar-Menu .Navbar-button{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.Search-Bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+   
+ /* Adjust as needed */
+   
+}
+
+.Search-input {
+    width: 80%;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border: 2px solid rgb(84, 81, 81);
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: rgb(84, 81, 81);
+    margin-right: 10px;
+}
+
+.Search-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Search-button svg {
+    fill: rgb(84, 81, 81); 
+    width: 30px; 
+    height: 30px; 
+}
+
+.Page-Content .User-list{
+    padding-top:50px;
+    color: white;
+
+}
+.User-list ul {
+    list-style: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+    
+    
+}
+
+.Page-Content .User-list .user-unum{
+    padding-left: 20px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.User-list ul li .user-unum:hover{
+    color: rgb(84, 81, 81);
+}
+
+.User-list .User-Contact{
+    display: flex;
+    padding-left: 150px;
+    align-items: center;
+    padding-bottom: 10px;
+    
+    
+}
+
+.Page-Content .User-list .user-logo{
+    width: 3.6%;
+    height:3.6%;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+
+

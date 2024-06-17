@@ -1,0 +1,112 @@
+.logo{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: "Archivo", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: auto;
+    color: cyan;
+}
+
+.chat-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 80vh;
+    background-color: transparent;
+
+  
+}
+
+.chat-box{
+    width: 100%; 
+    height: 100%;
+    background-color: transparent; 
+    box-sizing: border-box; 
+    border: 2px solid rgb(84, 81, 81);
+    border-radius: 20px;
+   
+    
+}
+.nav-gav{
+    background-color:  transparent;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(84, 81, 81) ;
+    background-color: transparent;
+    
+}
+
+.nav-gav .user-num{
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.nav-gav .button-container{
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 1200px;
+}
+
+.button{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: none; 
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: cyan;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-right:20px;
+    
+}
+
+.nav-gav .user-logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 5%;
+    height:5%;
+    background-color: transparent;
+    
+}
+.chatting-area{
+    overflow-y: auto;
+
+}
+
+.user-input-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 13%;
+    background-color: transparent;
+    margin-top: 500px;
+    border-top: 2px solid rgb(84, 81, 81);
+}
+.user-input-area .text-message{
+    height: 50%;
+    width: 85%; 
+    border-radius: 20px;
+    border: none;
+    border: 2px solid rgb(84, 81, 81);
+    background-color: transparent;
+    margin-left: 10px;
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+    
+}
+
+.message {
+    color: white;
+}
