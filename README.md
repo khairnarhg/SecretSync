@@ -4,14 +4,14 @@
 
 ---
 
-## 🛡 Key Features
+##  Key Features
 
-### 🔑 End-to-End Encryption
+###  End-to-End Encryption
 - **Diffie-Hellman Key Exchange (1024-bit)** for secure, ephemeral key generation
 - **AES-GCM (Advanced Encryption Standard - Galois/Counter Mode)** for authenticated encryption & decryption
 - No keys or messages are stored or logged on the server
 
-### 💬 Real-Time Chat
+###  Real-Time Chat
 - Built with **WebSockets** for instant, bidirectional communication
 - Fully encrypted messages in transit — readable **only by the intended recipient**
 
@@ -27,7 +27,7 @@
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology               |
 |------------|--------------------------|
@@ -57,7 +57,7 @@ Decrypted client-side using the shared key
 
 ---
 
-🛠️ Future Improvements
+ Future Improvements
 
  - Multi-user chat rooms
  - Forward secrecy via ephemeral keys
@@ -66,7 +66,7 @@ Decrypted client-side using the shared key
  - Digital signatures (ECDSA)
  - Mobile-responsive PWA version
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
